@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    app:ignore="NamespaceTypo">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/alert_dialog_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="vertical"
+                android:padding="0dp">
+
+
+                <!-- ========= TextView Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="5dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/kalpurush"
+                        android:justificationMode="inter_word"
+                        android:text="সতর্কীকরণ বার্তা"
+                        android:textColor="#FF0000"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========= TextView Code End Here=============-->
+
+
+
+
+                <!-- ========= TextView Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="5dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <TextView
+                        android:id="@+id/user_allert_details_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/kalpurush"
+                        android:justificationMode="inter_word"
+                        android:text="@string/bike_des_text_01"
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========= TextView Code End Here=============-->
+
+
+                <!-- ================o1 Nos Item  Start Here==== -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@color/white"
+                            card_view:cardBackgroundColor="@color/white"
+                            card_view:cardCornerRadius="5dp"
+                            card_view:cardElevation="4dp"
+                            card_view:cardMaxElevation="6dp">
+
+                            <!-- ================o1 Nos Item  Start Here==== -->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginHorizontal="2dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:weightSum="2">
+
+                                        <TextView
+                                            android:id="@+id/no_button"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:layout_weight="1"
+                                            android:layout_gravity="center"
+                                            android:gravity="center"
+                                            android:background="@drawable/button_selector_effect"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginRight="8dp"
+                                            android:text="আমি শর্তে রাজি না"
+                                            android:textColor="#FFFFFF"
+                                            android:textSize="16sp"
+                                            />
+
+
+
+
+
+
+
+                                        <TextView
+                                            android:id="@+id/yes_button"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="40dp"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_centerVertical="true"
+                                            android:layout_gravity="center"
+                                            android:gravity="center"
+                                            android:background="@drawable/button_selector_effect"
+                                            android:layout_marginRight="5dp"
+                                            android:layout_marginLeft="0dp"
+                                            android:layout_weight="1"
+                                            android:text="আমি শর্তে রাজি"
+                                            android:textSize="16sp"
+                                            android:textColor="#FFFFFF"
+                                            />
+
+                                    </LinearLayout>
+
+
+
+                                </RelativeLayout>
+
+
+
+
+                            </LinearLayout>
+                            <!-- ==================o1 Nos Item  End Here==== -->
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <!-- ==================o1 Nos Item  End Here==== -->
+
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

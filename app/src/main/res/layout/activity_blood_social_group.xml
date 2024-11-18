@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    tools:context=".Blood_Social_Group">
+
+
+
+    <!--=======Marque Text Line Start =====================-->
+    <TextView
+        android:id="@+id/marqueeId"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop=".5dp"
+        android:background="@color/purple_500"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="                      আপনি অর্থ দিয়ে কারো জন্য জীবন কিনতে পারবেন না তবে আপনি রক্ত দান করে কারও জীবন বাঁচাতে পারেন।"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:visibility="visible"
+        android:textStyle="normal" />
+    <!--=======Marque Text Line End =======================-->
+
+
+    <!--=======(0 Nos) Blood Social Group List Start Line ===========-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/marqueeId">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!-- ===============S.L NO: 01 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout"
+                            android:layout_toRightOf="@id/imageView"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="কসবা ব্লাড ফাউন্ডেশন"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 01 Item  End Here====== -->
+
+
+            <!-- ===============S.L NO: 02 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout2"
+                            android:layout_toRightOf="@id/imageView2"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="লক্ষ্য আমাদের মানবসেবা (ব্রাহ্মণবাড়িয়া)"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout2"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 02 Item  End Here====== -->
+
+
+            <!-- ===============S.L NO: 03 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout3"
+                            android:layout_toRightOf="@id/imageView3"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="গোপীনাথপুর স্বেচ্ছাসেবী ব্লাড ফাউন্ডেশন"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout3"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 03 Item  End Here====== -->
+
+            <!-- ===============S.L NO: 04 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout4"
+                            android:layout_toRightOf="@id/imageView4"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="Blood For Kasba (B4K)"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout4"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 04 Item  End Here====== -->
+
+
+            <!-- ===============S.L NO: 05 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout5"
+                            android:layout_toRightOf="@id/imageView5"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="নিঃস্বার্থ ব্লাড ব্যাংক - Nishwartha Blood Bank"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout5"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 05 Item  End Here====== -->
+
+
+            <!-- ===============S.L NO: 06 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout6"
+                            android:layout_toRightOf="@id/imageView6"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="বায়েক আলহাজ্ব শাহ্ আলম কলেজ.. ব্লাড ব্যাংক সোসাইটি"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout6"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 06 Item  End Here====== -->
+
+
+            <!-- ===============S.L NO: 07 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_07"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout7"
+                            android:layout_toRightOf="@id/imageView7"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="🩸সৃষ্টির সেবাই স্রষ্টার সেবা🩸 (ব্লাড ফাউন্ডেশন ব্রাহ্মণবাড়িয়া)"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout7"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 07 Item  End Here====== -->
+
+
+            <!-- ===============S.L NO: 08 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_08"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout8"
+                            android:layout_toRightOf="@id/imageView8"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="ধর্মপুর নিঃস্বার্থ রক্তদান ও সামাজিক সংগঠন"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout8"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 08 Item  End Here====== -->
+
+
+            <!-- ===============S.L NO: 09 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_09"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView09"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text09"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout09"
+                            android:layout_toRightOf="@id/imageView09"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="মনিয়ন্দ ব্লাড ফাউন্ডেশন"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout09"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 09 Item  End Here====== -->
+
+
+
+            <!-- ===============S.L NO: 10 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout10"
+                            android:layout_toRightOf="@id/imageView9"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="আখাউড়া ব্লাড ফাউন্ডেশন"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout10"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 10 Item  End Here====== -->
+
+
+
+
+            <!-- ===============S.L NO: 11 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout11"
+                            android:layout_toRightOf="@id/imageView11"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="আদর্শ ব্লাড ব্যাংক (A.B.B)"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout11"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 11 Item  End Here====== -->
+
+
+            <!-- ===============S.L NO: 12 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout12"
+                            android:layout_toRightOf="@id/imageView12"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="🩸Blood For Mehari Union🩸"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout12"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 12 Item  End Here====== -->
+
+
+            <!-- ===============S.L NO: 13 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout13"
+                            android:layout_toRightOf="@id/imageView13"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="রক্তবিন্দু ফাউন্ডেশন"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout13"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 13 Item  End Here====== -->
+
+
+
+            <!-- ===============S.L NO: 14 Item  Start Here==== -->
+            <LinearLayout
+                android:id="@+id/blood_social_group_14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/blood_icon" />
+
+
+                        <TextView
+                            android:id="@+id/hat_bazar_name_text14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_toLeftOf="@+id/call_image_layout14"
+                            android:layout_toRightOf="@id/imageView14"
+                            android:ellipsize="end"
+                            android:justificationMode="inter_word"
+                            android:singleLine="true"
+                            android:text="মূলগ্রাম ইউনিয়ন ব্লাড ফাউন্ডেশন"
+                            android:textColor="#02735C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/call_image_layout14"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arrow_icon2" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <!-- ===============S.L NO: 14 Item  End Here====== -->
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <!--=======(0 Nos) Blood Social Group List End Line =============-->
+
+
+</RelativeLayout>

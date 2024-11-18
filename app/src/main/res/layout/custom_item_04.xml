@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    android:background="#efefef">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            card_view:cardBackgroundColor="#FFFFFF"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="4dp"
+            card_view:cardMaxElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/customer_care_icon"
+                        card_view:civ_border_color="@color/purple_500"
+                        card_view:civ_border_width=".5dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/userCALL"
+                        android:layout_toRightOf="@id/imageView"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/donar_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="0dp"
+                            android:layout_toRightOf="@id/imageView"
+                            android:gravity="center_horizontal"
+                            android:text="Md Zashim Uddin"
+                            android:textColor="@color/purple_500"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/address_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/userName"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_toRightOf="@id/imageView"
+                            android:gravity="center_horizontal"
+                            android:justificationMode="inter_word"
+                            android:text="আখাউরা, ব্রাহ্মণবাড়িয়া।"
+                            android:textColor="@color/purple_500"
+                            android:textSize="14sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/last_date_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/userName"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_toRightOf="@id/imageView"
+                            android:gravity="center_horizontal"
+                            android:justificationMode="inter_word"
+                            android:text="সর্বশেষ রক্তদানঃ ১০/০৫/২০২৪"
+                            android:textColor="#788381"
+                            android:textSize="14sp"
+                            android:textStyle="bold"/>
+
+
+                        <TextView
+                            android:id="@+id/donar_phone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:layout_below="@+id/userName"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_toRightOf="@id/imageView"
+                            android:gravity="center_horizontal"
+                            android:justificationMode="inter_word"
+                            android:text="017xxxxxxx"
+                            android:textColor="#FF1100"
+                            android:textSize="14sp"
+                            android:textStyle="bold"/>
+
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/donar_call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="5dp"
+                        android:orientation="vertical">
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:id="@+id/lottie_animation_view"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"
+                            app:lottie_rawRes="@raw/call_dial" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/lottie_animation_view"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_toRightOf="@id/userCALL"
+                            android:text="কল করুন"
+                            android:textColor="@color/purple_500"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

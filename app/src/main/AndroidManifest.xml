@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KasbaOnlineSheba"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name=".Multiple_details_A_negative"
+            android:exported="false" />
+        <activity
+            android:name=".Multiple_Details_03"
+            android:exported="false" />
+        <activity
+            android:name=".Upazila_Information"
+            android:exported="false" />
+        <activity
+            android:name=".Dokan_Showroom"
+            android:exported="false" />
+        <activity
+            android:name=".Voluntary_Organization"
+            android:exported="false" />
+        <activity
+            android:name=".Educational_Institutions"
+            android:exported="false" />
+        <activity
+            android:name=".All_Sim_Dial_Code"
+            android:exported="false" />
+        <activity
+            android:name=".Health_Service"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_Social_Group"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_Organization"
+            android:exported="false" />
+        <activity
+            android:name=".Multiple_Details_04"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_Donor_Group"
+            android:exported="false" />
+        <activity
+            android:name=".Multiple_Details_02"
+            android:exported="false" />
+        <activity
+            android:name=".Palli_Bidyut"
+            android:exported="false" />
+        <activity
+            android:name=".Multiple_Details_01"
+            android:exported="false" />
+        <activity
+            android:name=".Privacy_Policy_Webview"
+            android:exported="false" />
+        <activity
+            android:name=".Electronics_Shop"
+            android:exported="false" />
+        <activity
+            android:name=".Motor_Cycle_Mason"
+            android:exported="false" />
+        <activity
+            android:name=".Auto_Rickshaw_Mason"
+            android:exported="false" />
+        <activity
+            android:name=".Atm_Booth"
+            android:exported="false" />
+        <activity
+            android:name=".Bank_Information"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Order"
+            android:exported="false" />
+        <activity
+            android:name=".Mobile_Shop"
+            android:exported="false" />
+        <activity
+            android:name=".Laundry_Service"
+            android:exported="false" />
+        <activity
+            android:name=".Tier_Mason"
+            android:exported="false" />
+        <activity
+            android:name=".About_Information_Collector"
+            android:exported="false" />
+        <activity
+            android:name=".Tuition_Service"
+            android:exported="false" />
+        <activity
+            android:name=".Printing_Press_Shop"
+            android:exported="false" />
+        <activity
+            android:name=".Wood_Furniture_Shop"
+            android:exported="false" />
+        <activity
+            android:name=".Online_Shop"
+            android:exported="false" />
+        <activity
+            android:name=".Ghotok"
+            android:exported="false" />
+        <activity
+            android:name=".Grocery_Shop"
+            android:exported="false" />
+        <activity
+            android:name=".Dish_Service"
+            android:exported="false" />
+        <activity
+            android:name=".Mudi_Dokan"
+            android:exported="false" />
+        <activity
+            android:name=".Painter_Masson"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_Foundation_Group"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_AB_Positive"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_B_Negative"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_B_Positive"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_O_Positive"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Gastroenterology"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Dermatologist"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Medicine_Specialist"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Child_Specialist"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Cardiologist"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Diabetic_Specialist"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Ear_Nose_Throat"
+            android:exported="false" />
+        <activity
+            android:name=".About_Apps"
+            android:exported="false" />
+        <activity
+            android:name=".Wifi_Internet_Service"
+            android:exported="false" />
+        <activity
+            android:name=".Prepaid_Meter_Code"
+            android:exported="false" />
+        <activity
+            android:name=".Madrasah"
+            android:exported="false" />
+        <activity
+            android:name=".Mondir"
+            android:exported="false" />
+        <activity
+            android:name=".Mosque"
+            android:exported="false" />
+        <activity
+            android:name=".College_Institute"
+            android:exported="false" />
+        <activity
+            android:name=".High_School"
+            android:exported="false" />
+        <activity
+            android:name=".Primary_School"
+            android:exported="false" />
+        <activity
+            android:name=".User_Information_Send"
+            android:exported="false" />
+        <activity
+            android:name=".Hat_Bazar"
+            android:exported="false" />
+        <activity
+            android:name=".Resturant"
+            android:exported="false" />
+        <activity
+            android:name=".Decorators_Shop"
+            android:exported="false" />
+        <activity
+            android:name=".Online_Service_Shop"
+            android:exported="false" />
+        <activity
+            android:name=".Coaching_Centre"
+            android:exported="false" />
+        <activity
+            android:name=".Jewellery_Shop"
+            android:exported="false" />
+        <activity
+            android:name=".Kazi_Office"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Dentist"
+            android:exported="false" />
+        <activity
+            android:name=".Upazila_Doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Gynecologist"
+            android:exported="false" />
+        <activity
+            android:name=".Upazila_Parishad"
+            android:exported="false" />
+        <activity
+            android:name=".Union_Parishad"
+            android:exported="false" />
+        <activity
+            android:name=".Financial_Institutions"
+            android:exported="false" />
+        <activity
+            android:name=".Post_Office"
+            android:exported="false" />
+        <activity
+            android:name=".Blood"
+            android:exported="false" />
+        <activity
+            android:name=".Electricity_Zonal_Office"
+            android:exported="false" />
+        <activity
+            android:name=".Electricity_Complaint_Centre"
+            android:exported="false" />
+        <activity
+            android:name=".Specialist_Doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Beauty_Parlour"
+            android:exported="false" />
+        <activity
+            android:name=".Dish_Connection"
+            android:exported="false" />
+        <activity
+            android:name=".Tailor_Craftsman"
+            android:exported="false" />
+        <activity
+            android:name=".Tiles_Mason"
+            android:exported="false" />
+        <activity
+            android:name=".Sanitary_Mason"
+            android:exported="false" />
+        <activity
+            android:name=".Electrical_Mason"
+            android:exported="false" />
+        <activity
+            android:name=".Gas_Service"
+            android:exported="false" />
+        <activity
+            android:name=".Training_Center"
+            android:exported="false" />
+        <activity
+            android:name=".Board_Result"
+            android:exported="false" />
+        <activity
+            android:name=".WebView_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Book_Library"
+            android:exported="false" />
+        <activity
+            android:name=".All_Vill_Activity_Show"
+            android:exported="false" />
+        <activity
+            android:name=".Vill_Chandidwar"
+            android:exported="false" />
+        <activity
+            android:name=".Vill_Latuamura"
+            android:exported="false" />
+        <activity
+            android:name=".About_Developer"
+            android:exported="false" />
+        <activity
+            android:name=".Kasba_Pourashava_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Kuti_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Kasba_West_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Kayempur_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Kharera_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Badair_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Bayek_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Binawoti_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Mulgram_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Mehari_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Gopinathpur_Union"
+            android:exported="false" />
+        <activity
+            android:name=".Custom_Item_Design"
+            android:exported="false" />
+        <activity
+            android:name=".Ambulance"
+            android:exported="false" />
+        <activity
+            android:name=".Fire_Service"
+            android:exported="false" />
+        <activity
+            android:name=".Thana_Police"
+            android:exported="false" />
+        <activity
+            android:name=".Emergency_Number"
+            android:exported="false" />
+        <activity
+            android:name=".Sim_Customer_Care"
+            android:exported="false" />
+        <activity
+            android:name=".Airtel"
+            android:exported="false" />
+        <activity
+            android:name=".Robi"
+            android:exported="false" />
+        <activity
+            android:name=".Banglalink"
+            android:exported="false" />
+        <activity
+            android:name=".Grameenphone"
+            android:exported="false" />
+        <activity
+            android:name=".Teletalk"
+            android:exported="false" />
+        <activity
+            android:name=".Lawyer"
+            android:exported="false" />
+        <activity
+            android:name=".Journalist"
+            android:exported="false" />
+        <activity
+            android:name=".Rent_Car"
+            android:exported="false" />
+        <activity
+            android:name=".Rural_Electricity"
+            android:exported="false" />
+        <activity
+            android:name=".Courier_Service"
+            android:exported="false" />
+        <activity
+            android:name=".Pharmacy_Shop"
+            android:exported="false" />
+        <activity
+            android:name=".Animal_Doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Homeopathic_Doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Diagnostic_Center"
+            android:exported="false" />
+        <activity
+            android:name=".Clinic"
+            android:exported="false" />
+        <activity
+            android:name=".Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_APP_ID" />
+    </application>
+
+</manifest>

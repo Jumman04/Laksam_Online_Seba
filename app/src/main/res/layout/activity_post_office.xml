@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Post_Office">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kalpurush"
+                    android:justificationMode="inter_word"
+                    android:padding="3dp"
+                    android:text="কসবা উপজেলার অধীনে সকল পোস্ট অফিসের নাম ও পোস্টাল কোড সমূহের তালিকা নিচে দেওয়া হল-\n"
+                    android:textColor="#FF0000"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="16"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="ক্র.নং"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="পোস্ট অফিস"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="পোস্টাল কোড"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="16"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="০১"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="কসবা"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="৩৪৬০"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="16"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="০২"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="কুটি"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="৩৪৬১"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="16"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="০৩"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="চন্ডিদ্বার"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="৩৪৬২"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="16"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="০৪"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="চারগাছ"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="৩৪৬৩"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="16"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="০৫"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="গোপীনাথপুর"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="৩৪৬৪"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="16"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="০৬"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="খেওড়া"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="42"
+                        android:background="@drawable/table_bg"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="৩৪৬০"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

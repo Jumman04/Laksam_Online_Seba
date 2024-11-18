@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE9E9"
+    tools:context=".Blood_Foundation_Group">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+
+            <!-- ========= 1 Nos News Layout Code Start Here=============-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <!-- ========= 1 Nos News Item Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blood_foundation_group_btn_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/btn_color_after"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="5dp"
+                        card_view:cardElevation="4dp"
+                        card_view:cardMaxElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="false"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/btn_color_after"
+                                card_view:cardBackgroundColor="#FFFFFF"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="0dp"
+                                    android:clickable="false"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/blood_foundation_icon" />
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="কসবা ব্লাড ফাউন্ডেশন"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="17.5sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========== 1 Nos News Item Code End Here==============-->
+
+
+            </LinearLayout>
+            <!-- ========== 1 Nos News Layout Code End Here==============-->
+
+
+            <!-- ========= 1 Nos News Layout Code Start Here=============-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <!-- ========= 1 Nos News Item Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blood_foundation_group_btn_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/btn_color_after"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="5dp"
+                        card_view:cardElevation="4dp"
+                        card_view:cardMaxElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="false"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/btn_color_after"
+                                card_view:cardBackgroundColor="#FFFFFF"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="0dp"
+                                    android:clickable="false"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/blood_foundation_icon" />
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="লক্ষ্য আমাদের মানবসেবা (ব্রাহ্মণবাড়িয়া)"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="17.5sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========== 1 Nos News Item Code End Here==============-->
+
+
+            </LinearLayout>
+            <!-- ========== 1 Nos News Layout Code End Here==============-->
+
+
+            <!-- ========= 1 Nos News Layout Code Start Here=============-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+
+                <!-- ========= 1 Nos News Item Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blood_foundation_group_btn_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/btn_color_after"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="5dp"
+                        card_view:cardElevation="4dp"
+                        card_view:cardMaxElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="false"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/btn_color_after"
+                                card_view:cardBackgroundColor="#FFFFFF"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="0dp"
+                                    android:clickable="false"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/blood_foundation_icon" />
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="গোপীনাথপুর স্বেচ্ছাসেবী ব্লাড ফাউন্ডেশন"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="17.5sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========== 1 Nos News Item Code End Here==============-->
+
+
+            </LinearLayout>
+            <!-- ========== 1 Nos News Layout Code End Here==============-->
+
+
+            <!-- ========= 1 Nos News Layout Code Start Here=============-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+
+                <!-- ========= 1 Nos News Item Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blood_foundation_group_btn_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/btn_color_after"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="5dp"
+                        card_view:cardElevation="4dp"
+                        card_view:cardMaxElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="false"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/btn_color_after"
+                                card_view:cardBackgroundColor="#FFFFFF"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="0dp"
+                                    android:clickable="false"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/blood_foundation_icon" />
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="Blood For Kasba (B4K)"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="17.5sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========== 1 Nos News Item Code End Here==============-->
+
+
+            </LinearLayout>
+            <!-- ========== 1 Nos News Layout Code End Here==============-->
+
+
+            <!-- ========= 1 Nos News Layout Code Start Here=============-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+
+                <!-- ========= 1 Nos News Item Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blood_foundation_group_btn_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/btn_color_after"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="5dp"
+                        card_view:cardElevation="4dp"
+                        card_view:cardMaxElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="false"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/btn_color_after"
+                                card_view:cardBackgroundColor="#FFFFFF"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="0dp"
+                                    android:clickable="false"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/blood_foundation_icon" />
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="নিঃস্বার্থ ব্লাড ব্যাংক - Nishwartha Blood Bank"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="17.5sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========== 1 Nos News Item Code End Here==============-->
+
+
+            </LinearLayout>
+            <!-- ========== 1 Nos News Layout Code End Here==============-->
+
+
+            <!-- ========= 1 Nos News Layout Code Start Here=============-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+
+                <!-- ========= 1 Nos News Item Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blood_foundation_group_btn_06"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/btn_color_after"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="5dp"
+                        card_view:cardElevation="4dp"
+                        card_view:cardMaxElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="false"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/btn_color_after"
+                                card_view:cardBackgroundColor="#FFFFFF"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="0dp"
+                                    android:clickable="false"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/blood_foundation_icon" />
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="বায়েক আলহাজ্ব শাহ্ আলম কলেজ.. ব্লাড ব্যাংক সোসাইটি"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="17.5sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========== 1 Nos News Item Code End Here==============-->
+
+
+
+
+
+            </LinearLayout>
+            <!-- ========== 1 Nos News Layout Code End Here==============-->
+
+
+
+            <!-- ========= 1 Nos News Layout Code Start Here=============-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+
+                <!-- ========= 1 Nos News Item Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blood_foundation_group_btn_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/btn_color_after"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="5dp"
+                        card_view:cardElevation="4dp"
+                        card_view:cardMaxElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="false"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/btn_color_after"
+                                card_view:cardBackgroundColor="#FFFFFF"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="0dp"
+                                    android:clickable="false"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/blood_foundation_icon" />
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="🩸সৃষ্টির সেবাই স্রষ্টার সেবা🩸\n(ব্লাড ফাউন্ডেশন ব্রাহ্মণবাড়িয়া)"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="17.5sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========== 1 Nos News Item Code End Here==============-->
+
+
+
+
+
+            </LinearLayout>
+            <!-- ========== 1 Nos News Layout Code End Here==============-->
+
+
+
+            <!-- ========= 1 Nos News Layout Code Start Here=============-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+
+                <!-- ========= 1 Nos News Item Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blood_foundation_group_btn_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/btn_color_after"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="5dp"
+                        card_view:cardElevation="4dp"
+                        card_view:cardMaxElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="false"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/btn_color_after"
+                                card_view:cardBackgroundColor="#FFFFFF"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="0dp"
+                                    android:clickable="false"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/blood_foundation_icon" />
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="ধর্মপুর নিঃস্বার্থ রক্তদান ও সামাজিক সংগঠন"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="17.5sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========== 1 Nos News Item Code End Here==============-->
+
+
+
+
+
+            </LinearLayout>
+            <!-- ========== 1 Nos News Layout Code End Here==============-->
+
+
+            <!-- ========= 1 Nos News Layout Code Start Here=============-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+
+                <!-- ========= 1 Nos News Item Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blood_foundation_group_btn_09"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/btn_color_after"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="5dp"
+                        card_view:cardElevation="4dp"
+                        card_view:cardMaxElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="false"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/btn_color_after"
+                                card_view:cardBackgroundColor="#FFFFFF"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="0dp"
+                                    android:clickable="false"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/blood_foundation_icon" />
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="🥀🩸মনিঅন্দ ব্লাড ফাউন্ডেশন 🥀🩸"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="17.5sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========== 1 Nos News Item Code End Here==============-->
+
+
+
+
+
+            </LinearLayout>
+            <!-- ========== 1 Nos News Layout Code End Here==============-->
+
+
+            <!-- ========= 1 Nos News Layout Code Start Here=============-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+
+                <!-- ========= 1 Nos News Item Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blood_foundation_group_btn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/btn_color_after"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="5dp"
+                        card_view:cardElevation="4dp"
+                        card_view:cardMaxElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="false"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/btn_color_after"
+                                card_view:cardBackgroundColor="#FFFFFF"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="0dp"
+                                    android:clickable="false"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/blood_foundation_icon" />
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="আদর্শ ব্লাড ব্যাংক(A.B.B)"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="17.5sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========== 1 Nos News Item Code End Here==============-->
+
+
+
+
+
+            </LinearLayout>
+            <!-- ========== 1 Nos News Layout Code End Here==============-->
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

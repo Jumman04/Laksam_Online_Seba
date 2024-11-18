@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item android:title="হোম">
+
+
+            <menu>
+
+                <item
+                    android:id="@+id/mHome"
+                    android:icon="@drawable/home_24"
+                    android:iconTint="#FFFFFF"
+                    android:title="হোম" />
+
+                <item
+                    android:id="@+id/mAboutApp"
+                    android:icon="@drawable/developer_icon"
+                    android:title="অ্যাপ সম্পর্কে" />
+
+                <item
+                    android:id="@+id/mDeveloper"
+                    android:icon="@drawable/developer_icon"
+                    android:title="ডেভেলপার" />
+
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item android:title="কমিউনিকেশন">
+
+            <menu>
+
+                <item
+                    android:id="@+id/mShare"
+                    android:icon="@drawable/share_icon"
+                    android:title="শেয়ার অ্যাপ" />
+
+
+                <item
+                    android:id="@+id/mRate"
+                    android:icon="@drawable/rate_us_icon"
+                    android:title="রেটিং দিন" />
+
+                <item
+                    android:id="@+id/mAdvertisement"
+                    android:icon="@drawable/announce_icon"
+                    android:title="বিজ্ঞাপন দিন" />
+
+
+                <item
+                    android:id="@+id/email_send"
+                    android:icon="@drawable/information_send"
+                    android:title="ইমেইল-করুন"/>
+
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item android:title="আপডেট চেক">
+
+            <menu>
+                <item
+                    android:id="@+id/mUpdate"
+                    android:icon="@drawable/update_icon2"
+                    android:title="আপডেট অ্যাপ" />
+
+                <item
+                    android:id="@+id/mMore_apps"
+                    android:icon="@drawable/more_apps_icon"
+                    android:title="অন্যান্য অ্যাপস" />
+
+
+                <item
+                    android:id="@+id/mPrivacy_policy"
+                    android:icon="@drawable/privacy_icon"
+                    android:title="প্রাইভেসি পলিসি" />
+
+
+                <item
+                    android:id="@+id/mExit"
+                    android:icon="@drawable/exit_icon"
+                    android:title="বাহির"/>
+
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#efefef">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!-- ================o1 Nos Item  Start Here==== -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lottie_animation_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="4dp"
+                card_view:cardMaxElevation="6dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+
+                    <!-- ==================o1 Nos Item  Start Here -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:id="@+id/layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="100dp"
+                                    android:layout_height="120dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:background="@color/white"
+                                    card_view:cardBackgroundColor="@color/white"
+                                    card_view:cardCornerRadius="5dp"
+                                    card_view:cardElevation="4dp"
+                                    card_view:cardMaxElevation="6dp">
+
+                                    <ImageView
+                                        android:id="@+id/imageView"
+                                        android:layout_width="100dp"
+                                        android:layout_height="120dp"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_marginLeft="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:padding="5dp"
+                                        android:scaleType="fitXY"
+                                        android:src="@drawable/zashim_photo" />
+
+                                </androidx.cardview.widget.CardView>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/title_text"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginHorizontal="10dp"
+                                        android:layout_marginTop="06dp"
+                                        android:layout_toRightOf="@id/imageView"
+                                        android:justificationMode="none"
+                                        android:paddingVertical="0dp"
+                                        android:text="আল মদিনা হার্ডওয়ার ফ্যাশন"
+                                        android:textColor="#000000"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"/>
+
+                                    <TextView
+                                        android:id="@+id/adress_text"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginHorizontal="10dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:layout_toRightOf="@id/imageView"
+                                        android:justificationMode="none"
+                                        android:paddingVertical="0dp"
+                                        android:text="বিশেষজ্ঞঃ হৃদরোগ\nশিক্ষাগত যোগ্যতাঃ MBBS (DHAKA), BCS (HEALTH), MD(CARDILOGY)"
+                                        android:textColor="#000000"
+                                        android:textSize="18dp"/>
+
+                                </LinearLayout>
+
+
+
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:id="@+id/phone_number_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/layout"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="05dp"
+                                android:justificationMode="inter_word"
+                                android:paddingVertical="5dp"
+                                android:text="01766874923"
+                                android:textColor="#000000"
+                                android:visibility="gone"
+                                android:textSize="17dp" />
+
+
+                            <TextView
+                                android:id="@+id/description_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/phone_number_text"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="05dp"
+                                android:justificationMode="inter_word"
+                                android:paddingVertical="5dp"
+                                android:text="My name is md jashim uddin"
+                                android:textColor="#000000"
+                                android:visibility="visible"
+                                android:textSize="18dp"/>
+
+
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/userPhone2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/description_text"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/white"
+                                card_view:cardBackgroundColor="@color/white"
+                                card_view:cardCornerRadius="5dp"
+                                card_view:cardElevation="4dp"
+                                card_view:cardMaxElevation="6dp">
+
+
+
+                                <!--  ==========Developer Contact Text Layout Start Here==========  -->
+
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginRight="0dp"
+                                    android:layout_below="@id/userPhone2"
+                                    android:orientation="vertical">
+
+
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="0dp"
+                                        android:layout_marginBottom="0dp"
+                                        android:orientation="vertical"
+                                        android:padding="0dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_marginTop="0dp"
+                                                android:layout_marginRight="0dp"
+                                                android:layout_marginBottom="0dp"
+                                                android:orientation="vertical"
+                                                android:padding="0dp">
+
+
+                                                <!-- ================o1 Nos Item  Start Here==== -->
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="vertical">
+
+
+                                                    <RelativeLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content">
+
+
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:orientation="horizontal"
+                                                            android:weightSum="3">
+
+
+                                                            <androidx.cardview.widget.CardView
+                                                                android:id="@+id/whatsp_call_btn"
+                                                                android:layout_width="fill_parent"
+                                                                android:layout_height="45dp"
+                                                                android:layout_margin="10dp"
+                                                                android:layout_marginLeft="0dp"
+                                                                android:layout_marginTop="0dp"
+                                                                android:layout_marginRight="0dp"
+                                                                android:layout_marginBottom="0dp"
+                                                                android:layout_weight="1"
+                                                                android:orientation="horizontal"
+                                                                card_view:cardBackgroundColor="@android:color/white"
+                                                                card_view:cardCornerRadius="4dp"
+                                                                card_view:cardElevation="4dp"
+                                                                card_view:cardMaxElevation="6dp">
+
+
+                                                                <ImageView
+                                                                    android:layout_width="fill_parent"
+                                                                    android:layout_height="45dp"
+                                                                    android:layout_gravity="center_vertical"
+                                                                    android:layout_marginLeft="5dp"
+                                                                    android:layout_marginRight="5dp"
+                                                                    android:layout_weight="1"
+                                                                    android:src="@drawable/whatsapp_icon" />
+
+                                                            </androidx.cardview.widget.CardView>
+
+
+                                                            <androidx.cardview.widget.CardView
+                                                                android:id="@+id/fb_page_btn"
+                                                                android:layout_width="fill_parent"
+                                                                android:layout_height="45dp"
+                                                                android:layout_margin="10dp"
+                                                                android:layout_marginLeft="0dp"
+                                                                android:layout_marginTop="0dp"
+                                                                android:layout_marginRight="0dp"
+                                                                android:layout_marginBottom="0dp"
+                                                                android:layout_weight="1"
+                                                                android:orientation="horizontal"
+                                                                card_view:cardBackgroundColor="@android:color/white"
+                                                                card_view:cardCornerRadius="4dp"
+                                                                card_view:cardElevation="4dp"
+                                                                card_view:cardMaxElevation="6dp">
+
+
+                                                                <ImageView
+                                                                    android:layout_width="fill_parent"
+                                                                    android:layout_height="45dp"
+                                                                    android:layout_gravity="center_vertical"
+                                                                    android:layout_marginLeft="5dp"
+                                                                    android:layout_marginRight="5dp"
+                                                                    android:layout_weight="1"
+                                                                    android:src="@drawable/fb_page_icon" />
+
+                                                            </androidx.cardview.widget.CardView>
+
+
+                                                            <androidx.cardview.widget.CardView
+                                                                android:id="@+id/call_dial_btn"
+                                                                android:layout_width="fill_parent"
+                                                                android:layout_height="45dp"
+                                                                android:layout_margin="10dp"
+                                                                android:layout_marginLeft="0dp"
+                                                                android:layout_marginTop="0dp"
+                                                                android:layout_marginRight="0dp"
+                                                                android:layout_marginBottom="0dp"
+                                                                android:layout_weight="1"
+                                                                android:orientation="horizontal"
+                                                                card_view:cardBackgroundColor="@android:color/white"
+                                                                card_view:cardCornerRadius="4dp"
+                                                                card_view:cardElevation="4dp"
+                                                                card_view:cardMaxElevation="6dp">
+
+
+                                                                <ImageView
+                                                                    android:layout_width="fill_parent"
+                                                                    android:layout_height="45dp"
+                                                                    android:layout_gravity="center_vertical"
+                                                                    android:layout_marginLeft="5dp"
+                                                                    android:layout_marginRight="5dp"
+                                                                    android:layout_weight="1"
+                                                                    android:src="@drawable/call_dial_icon" />
+
+                                                            </androidx.cardview.widget.CardView>
+
+
+                                                        </LinearLayout>
+
+
+                                                    </RelativeLayout>
+
+
+                                                </LinearLayout>
+                                                <!-- ==================o1 Nos Item  End Here==== -->
+
+
+                                            </LinearLayout>
+
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <!--  ==========Developer Contact Text Layout Start Here==========  -->
+
+
+
+
+
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <!-- ==================o1 Nos Item  End Here -->
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!-- ==================o1 Nos Item  End Here==== -->
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Information_Send">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/alert_dialog_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="vertical"
+                android:padding="0dp">
+
+                <!-- ========= Lottie Animation Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="5dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/lottie_animation"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginHorizontal="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/lottie_animation_round_background"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/ambulance_car"/>
+                </androidx.cardview.widget.CardView>
+                <!-- ========= Lottie Animation Code End Here=============-->
+
+
+
+                <!-- ========= TextView Code Start Here=============-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/btn_color_after"
+                    card_view:cardBackgroundColor="#FFFFFF"
+                    card_view:cardCornerRadius="5dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp">
+
+                    <TextView
+                        android:id="@+id/user_allert_details_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/kalpurush"
+                        android:justificationMode="inter_word"
+                        android:text="আপনাদের যে কোনো উপদেশ এবং অনুপ্রেরণা আমাদেরকে উৎসাহিত করে। তাই ৫ স্টার রেটিং ও রিভিউ দিয়ে আমাদেরকে ধন্য করুন। ধন্যবাদ আপনাকে.....!"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+                <!-- ========= TextView Code End Here=============-->
+
+
+                <!-- ================o1 Nos Item  Start Here==== -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@color/white"
+                            card_view:cardBackgroundColor="@color/white"
+                            card_view:cardCornerRadius="5dp"
+                            card_view:cardElevation="4dp"
+                            card_view:cardMaxElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:orientation="horizontal">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/close_btn"
+                                        android:layout_width="50dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/white"
+                                        card_view:cardBackgroundColor="@color/white"
+                                        card_view:cardCornerRadius="5dp"
+                                        card_view:cardElevation="4dp"
+                                        card_view:cardMaxElevation="6dp">
+
+
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <ImageView
+                                                android:layout_width="50dp"
+                                                android:layout_height="30dp"
+                                                android:layout_gravity="center_horizontal"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginTop="0dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginBottom="0dp"
+                                                android:padding="13.5dp"
+                                                android:scaleType="centerCrop"
+                                                android:src="@drawable/close_icon"
+                                                android:textAllCaps="false" />
+
+                                            <TextView
+                                                android:layout_width="50dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="বন্ধ করুন"
+                                                android:layout_gravity="center_horizontal"
+                                                android:gravity="center"
+                                                android:textSize="12sp"
+                                                android:background="@color/purple_500"
+                                                android:textColor="#FFFFFF"/>
+
+                                        </LinearLayout>
+
+
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/gmail_send"
+                                        android:layout_width="50dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/white"
+                                        card_view:cardBackgroundColor="@color/white"
+                                        card_view:cardCornerRadius="5dp"
+                                        card_view:cardElevation="4dp"
+                                        card_view:cardMaxElevation="6dp">
+
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <ImageView
+                                                android:layout_width="50dp"
+                                                android:layout_height="30dp"
+                                                android:layout_gravity="center_horizontal"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginTop="0dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginBottom="0dp"
+                                                android:padding="5dp"
+                                                android:scaleType="fitCenter"
+                                                android:src="@drawable/gmail_icon"
+                                                android:textAllCaps="false" />
+
+                                            <TextView
+                                                android:layout_width="50dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="তথ্য দিন"
+                                                android:layout_gravity="center_horizontal"
+                                                android:gravity="center"
+                                                android:textSize="12sp"
+                                                android:background="@color/purple_500"
+                                                android:textColor="#FFFFFF"/>
+
+
+                                        </LinearLayout>
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/information_send_button"
+                                        android:layout_width="50dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/white"
+                                        card_view:cardBackgroundColor="@color/white"
+                                        card_view:cardCornerRadius="5dp"
+                                        card_view:cardElevation="4dp"
+                                        card_view:cardMaxElevation="6dp">
+
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <ImageView
+                                                android:layout_width="50dp"
+                                                android:layout_height="30dp"
+                                                android:layout_gravity="center_horizontal"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginTop="0dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginBottom="0dp"
+                                                android:padding="12dp"
+                                                android:scaleType="centerCrop"
+                                                android:src="@drawable/whatsapp_icon"
+                                                android:textAllCaps="false"/>
+
+                                            <TextView
+                                                android:layout_width="50dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="তথ্য দিন"
+                                                android:layout_gravity="center_horizontal"
+                                                android:gravity="center"
+                                                android:textSize="12sp"
+                                                android:background="@color/purple_500"
+                                                android:textColor="#FFFFFF"/>
+
+                                        </LinearLayout>
+
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+
+
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <!-- ==================o1 Nos Item  End Here==== -->
+
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Multiple_Details_02">
+
+    <!-- ========= Marquee Text Code Start Here=============-->
+    <LinearLayout
+        android:id="@+id/marqueelayout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#E91E63"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp"
+            android:text="নোটিশ"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/marqueeId"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="@color/purple_500"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="                      আপনি অর্থ দিয়ে কারো জন্য জীবন কিনতে পারবেন না তবে আপনি রক্ত দান করে কারও জীবন বাঁচাতে পারেন।"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+    <!-- ========= Marquee Text Code End Here=============-->
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/donnerRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:layout_below="@id/marqueelayout"
+        android:dividerHeight="0dp"
+        />
+
+
+</RelativeLayout>
